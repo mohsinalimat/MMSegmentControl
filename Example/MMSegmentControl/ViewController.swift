@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     func configureSegmentedControl() {
-        let titleStrings = ["One", "TwoTwo", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
+        let titleStrings = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
         let titles: [NSAttributedString] = {
             let attributes = [NSFontAttributeName: UIFont.systemFont(ofSize: 16), NSForegroundColorAttributeName: UIColor.white]
             var titles = [NSAttributedString]()
