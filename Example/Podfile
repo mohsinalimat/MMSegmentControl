@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMSegmentControl_Example' do
+  pod 'MMSegmentControl', :path => '../'
+
+  target 'MMSegmentControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
