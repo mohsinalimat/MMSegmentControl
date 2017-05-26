@@ -1,0 +1,16 @@
+PODS:
+  - MMSegmentControl (0.1.0)
+
+DEPENDENCIES:
+  - MMSegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  MMSegmentControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMSegmentControl: ba0b1adbb8892c36bab5ac03802558ae2d5df61a
+
+PODFILE CHECKSUM: f35cc1d46cf751822a20bfafec14ccf551e503b3
+
+COCOAPODS: 1.2.1

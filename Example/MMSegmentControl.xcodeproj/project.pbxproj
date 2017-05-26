@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		314AAE8008080F05CF6C1281 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		314AAE8008080F05CF6C1281 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MMSegmentControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSegmentControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		99D7DB18058A52946D027925 /* Pods-MMSegmentControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSegmentControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMSegmentControl_Tests/Pods-MMSegmentControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C27CB5C95A8BC6DC87DD3EBA /* Pods-MMSegmentControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSegmentControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMSegmentControl_Tests/Pods-MMSegmentControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5A65EA2C9033092B39F4E30 /* Pods-MMSegmentControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSegmentControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMSegmentControl_Example/Pods-MMSegmentControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C7DF2B44598B2828661F610F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C7DF2B44598B2828661F610F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF0E7C504C49BAFBBC1A9A53 /* Pods-MMSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSegmentControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMSegmentControl_Example/Pods-MMSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D1DD1CC2DBF0A849CCD70ABE /* MMSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMSegmentControl.podspec; path = ../MMSegmentControl.podspec; sourceTree = "<group>"; };
+		D1DD1CC2DBF0A849CCD70ABE /* MMSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMSegmentControl.podspec; path = ../MMSegmentControl.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -448,6 +448,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -487,6 +488,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

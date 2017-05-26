@@ -1,0 +1,6 @@
+framework module MMSegmentControl {
+  umbrella header "MMSegmentControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
