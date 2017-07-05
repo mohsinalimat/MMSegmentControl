@@ -6,7 +6,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Screenshot
 
-![](http://i.imgur.com/WI5vkF3.png)
+![](https://i.imgur.com/WI5vkF3.png)
 
 ## Requirements
 
